@@ -231,7 +231,6 @@ public class CheckpointRebuilder {
     opt = new Option("l", true, "comma-separated list of log directories");
     opt.setRequired(true);
     options.addOption(opt);
-    options.addOption(opt);
     opt = new Option("t", true, "capacity of the channel");
     opt.setRequired(true);
     options.addOption(opt);
